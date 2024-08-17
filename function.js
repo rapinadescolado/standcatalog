@@ -1,3 +1,1 @@
-{
 'omaga': 'kkkkkkk'
-}
