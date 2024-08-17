@@ -1,6 +1,0 @@
-{"testenable":"$enabled[$getUserVar[a.midtuto];]
-$enabled[$getUserVar[a.tutocomplete];**❌️ | Você precisa fazer o tutorial primeiro. Use o comando `-start`**]
-$enabled[$getUserVar[livre];**❌️ | Você não está livre no momento!**]
-$if[$getServerVar[b.channel]!=]
-   $onlyForChannels[$unescape[$getServerVar[b.channel]];**❌️ | Você não pode usar comandos nesse canal. Vá para os canais de uso do bot!**]
-$endif"}
