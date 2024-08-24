@@ -1,0 +1,88 @@
+$optOff[
+$var[tipo;$randomText[stand;stand;combate;combate;combate;loot;loot;loot;loot]]
+
+$if[$var[tipo]==stand]
+   $var[item;$randomText[flecha;flecha;requiem;sapo;sapo;rokakaka]]
+   $var[quantidade;1]
+   
+   $if[$var[item]==flecha]
+      $var[nome;flecha de stand]
+      $var[desc;> Permite seu stand ganhar uma habilidade nova.]
+   $endif
+   $if[$var[item]==requiem]
+      $var[nome;flecha requiem]
+      $var[desc;> Permite seu stand ganhar 1 habilidade especial.]
+   $endif
+   $if[$var[item]==sapo]
+      $var[nome;sapo]
+      $var[desc;> Permite os status do seu stand evoluir.]
+   $endif
+   $if[$var[item]==rokakaka]
+      $var[nome;fruta rokakaka]
+      $var[desc;> Permite você perder uma habilidade do seu stand ou resetar os status. Você ganha 70% dos SP que gastou para fazer essa habilidade ou para evoluir os status.]
+   $endif
+$endif
+
+$if[$var[tipo]==combate]
+   $var[item;$randomText[cafe;comida;seringa;pilulas;luvas;tenis]]
+   $var[quantidade;$random[1;4]]
+   
+   $if[$var[item]==cafe]
+      $var[nome;xícara de café]
+      $var[desc;> Restaura levemente a sua energia em meio de combate.]
+   $endif
+   $if[$var[item]==comida]
+      $var[nome;comida enlatada]
+      $var[desc;> Restaura levemente o seu HP em meio de combate.]
+   $endif
+   $if[$var[item]==seringa]
+      $var[nome;seringa]
+      $var[desc;> Restaura boa parte do seu HP em meio de combate.]
+   $endif
+   $if[$var[item]==pilulas]
+      $var[nome;pilulas de adrenalina]
+      $var[desc;> Restaura boa parte da sua energia em meio de combate.]
+   $endif
+   $if[$var[item]==luvas]
+      $var[nome;luvas de boxe]
+      $var[desc;> Aumenta seu poder em 20% durante 1 dia em todos os combates que participar.]
+   $endif
+   $if[$var[item]==tenis]
+      $var[nome;tenis de corrida]
+      $var[desc;> Aumenta consideravelmente sua locomoção durante 1 dia em todos os combates que participar.]
+   $endif
+$endif
+
+$if[$var[tipo]==loot]
+   $var[item;$randomText[carvao;ferro;ouro;diamante;madeira;folhas;corda;papel;racao]]
+   $var[quantidade;$random[1;11]]
+   
+   $if[$var[item]==carvao]
+      $var[nome;carvão]
+   $endif
+   $if[$var[item]==ferro]
+      $var[nome;ferro]
+   $endif
+   $if[$var[item]==ouro]
+      $var[nome;ouro]
+   $endif
+   $if[$var[item]==diamante]
+      $var[nome;diamante]
+   $endif
+   $if[$var[item]==madeira]
+      $var[nome;madeira]
+   $endif
+   $if[$var[item]==folhas]
+      $var[nome;folhas secas]
+   $endif
+   $if[$var[item]==corda]
+      $var[nome;corda]
+   $endif
+   $if[$var[item]==papel]
+      $var[nome;papel]
+   $endif
+   $if[$var[item]==racao]
+      $var[nome;ração]
+   $endif
+$endif
+]
