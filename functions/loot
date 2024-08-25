@@ -2,7 +2,7 @@ $optOff[
 $var[tipo;$randomText[stand;stand;combate;combate;combate;loot;loot;loot;loot]]
 
 $if[$var[tipo]==stand]
-   $var[item;$randomText[flecha;flecha;requiem;sapo;sapo;rokakaka]]
+   $var[item;$randomText[flecha;flecha;flecha;requiem;sapo;sapo;sapo;rokakaka;rokakaka]]
    $var[quantidade;1]
    
    $if[$var[item]==flecha]
